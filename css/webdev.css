@@ -1,0 +1,408 @@
+#document-carousel{
+    padding: 2% 0%;
+}
+
+.carouselh1webdev{
+    font-size: 3rem;
+    color: black;
+    padding: 12% 5% 0% 5%;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+#whatwedo{
+    padding: 3% 5% 2%;
+    background-color:tomato;
+    height:600px;
+    
+}
+
+.leftcol{
+    background-color: palegoldenrod;
+    border-radius: 20px;
+}
+
+.rightcol{
+    padding: 2% 10% !important;
+    background-color: palegreen;
+    border-radius: 20px;
+}
+
+.box{
+    padding: 25px 30px 30px 30px;    
+    background-color: #b8b5ff;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    display: block;
+    color: white;
+    box-shadow: 0 15px 15px #aaa;
+    border-radius: 5%;
+}
+
+.box h4{
+    clear: both;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    text-align: left;
+
+}
+
+.box .icon{
+    width: 79px;
+    height: 79px;
+    float: right;
+    display: block;
+    color: #333;
+}
+
+.box:hover{
+    color: white;
+    background-color: whitesmoke;
+    transform: scale(1.1);
+    
+}
+
+.row::before .rpw::after{
+    content: " ";
+    display: table;
+}
+
+.wwd-h1{
+    font-family: 'ubuntu',sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 25%;
+    color:crimson;
+    /* text-shadow: 0 5px 5px #666; */
+}
+
+.wwd-h3{
+    font-family: 'ubuntu',sans-serif;
+    
+    font-weight: normal;
+    padding-top: 5%;
+}
+
+.logo-h1{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    /* padding-top: 5%; */
+}
+
+/* Slick Slider CSS */
+
+  /* Defines the width of the carousel and centers it on the page */
+  .slickcarousel{
+    background-color: lightgray;
+    width: 100%;
+  }
+
+  .slickcarousel1{
+    background-color: lightsteelblue;
+    width: 100%;
+  }
+
+.slick-carousel {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 2% 0%;
+    
+  }
+  
+  /* The width of each slide */
+  .slick-slide {
+    width: 350px;
+  }
+  
+  /* Color of the arrows */
+  .slick-next::before, .slick-prev::before {
+    color: blue;
+  }
+
+  #logomaking{
+    padding: 3% 3% 2%;
+    background-repeat: repeat;
+    
+}
+ 
+  /* css text rotation effect */
+
+  #logoprinciples{
+      text-align: center;
+      padding: 2% 5% 5%;
+      
+  }
+
+  .right-content{
+    background-color:lemonchiffon;
+    border-radius: 20px;
+  }
+
+/*Sentence*/
+.sentence{
+     color:tomato;
+     font-size: 2rem;
+     font-family: 'ubuntu',sans-serif;
+     font-weight: normal;
+     
+     
+}
+
+.logoh4{
+    font-weight: light;
+    font-family: 'ubuntu', sans-serif;
+    color: red;
+    padding-bottom: 2%;
+}
+
+/*Wrapper*/
+.wrapper{
+    background-color: #f5f5f5;
+    font-family: 'Raleway', sans-serif;
+    margin: 100px auto;
+    padding: 40px 40px;
+    position: relative;
+    width: 70%;
+}
+
+/*Vertical Sliding*/
+
+.slidingVertical{
+	display: inline;
+	text-indent: 8px;
+    font-size: 3rem;
+}
+
+    span{
+    left: 0px; 
+    right: 0px;
+}
+
+.slidingVertical span{
+	animation: topToBottom 12.5s linear infinite 0s;
+	-ms-animation: topToBottom 12.5s linear infinite 0s;
+	-webkit-animation: topToBottom 12.5s linear infinite 0s;
+	color: red;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+}
+.slidingVertical span:nth-child(2){
+	animation-delay: 2.5s;
+	-ms-animation-delay: 2.5s;
+	-webkit-animation-delay: 2.5s;
+}
+.slidingVertical span:nth-child(3){
+	animation-delay: 5s;
+	-ms-animation-delay: 5s;
+	-webkit-animation-delay: 5s;
+}
+.slidingVertical span:nth-child(4){
+	animation-delay: 7.5s;
+	-ms-animation-delay: 7.5s;
+	-webkit-animation-delay: 7.5s;
+}
+.slidingVertical span:nth-child(5){
+	animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	-webkit-animation-delay: 10s;
+}
+
+
+
+/*topToBottom Animation*/
+@-moz-keyframes topToBottom{
+	0% { opacity: 0; }
+	5% { opacity: 0; -moz-transform: translateY(-50px); }
+	10% { opacity: 1; -moz-transform: translateY(0px); }
+	25% { opacity: 1; -moz-transform: translateY(0px); }
+	30% { opacity: 0; -moz-transform: translateY(50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes topToBottom{
+	0% { opacity: 0; }
+	5% { opacity: 0; -webkit-transform: translateY(-50px); }
+	10% { opacity: 1; -webkit-transform: translateY(0px); }
+	25% { opacity: 1; -webkit-transform: translateY(0px); }
+	30% { opacity: 0; -webkit-transform: translateY(50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes topToBottom{
+	0% { opacity: 0; }
+	5% { opacity: 0; -ms-transform: translateY(-50px); }
+	10% { opacity: 1; -ms-transform: translateY(0px); }
+	25% { opacity: 1; -ms-transform: translateY(0px); }
+	30% { opacity: 0; -ms-transform: translateY(50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+#bcards{
+    background-color: lightyellow;  
+}
+
+#bcards ul{
+    padding-top: 2%;
+}
+
+#bcards ul li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.list1{
+    color: tomato;
+}
+.list2{
+    color:goldenrod;
+}
+.list3{
+    color: blueviolet;
+}
+.list4{
+    color: peru;
+}
+.list5{
+    color:indianred;
+}
+
+
+.hidden {
+    opacity: 0;
+  }
+
+ @keyframes fade-in {
+    from {opacity: 0; transform: scale(.7,.7)}
+    to {opacity: 1;}
+}
+.fade-in-element {
+  animation: fade-in 1.4s;
+}
+
+.cf-bcards{
+    padding: 2% 5%;
+}
+
+.bcardsrow{
+    padding: 2% 5%;
+}
+
+/* .webheading{
+    background-color: tomato;
+} */
+.webdev-h1{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 5px 5px #ccc;
+    
+}
+
+.website-h1{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 5px 5px #ccc;
+    padding-top: 2%;
+}
+
+/* forms */
+
+
+#webrequestform{
+    text-align: left;
+    padding: 2% 8%;
+   
+    
+}
+
+.cf-form{
+    border: 2px solid #aaa;
+}
+
+#customerform{
+    background-color: lightgray;
+}
+
+.formcolheading{
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+label{
+    color: #3d3d3d;
+    display: table-cell;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    height: 30px;
+    line-height: 1.25em;
+    padding: 4px 0 0 10px;
+    vertical-align: middle;
+    margin-bottom: -3px;
+    
+}
+
+input{
+    border-radius: 5px;
+    background: white;
+    /* margin-top: 10px; */
+    
+}
+
+.col1, .col2, .col3{
+    padding:3% 5%;
+    background-color: #eee;
+    
+}
+
+.col3{
+    padding: 0%;
+    
+}
+
+.ad1{
+    background-color: paleturquoise;
+    padding: 1%;
+    margin: 10%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.ad2{
+    background-color: palegoldenrod;
+    padding: 1%;
+    margin: 10%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.form input[type=text], .form input[type=email] {
+    color: #747474;
+    border: 1px solid #555 !important;
+    /* border-radius: 6px; */
+    padding: 7px 10px;
+    width: 90%;
+    font-size: 16px;
+    /* -moz-box-shadow: inset 0 0 5px #ebebeb;
+    -webkit-box-shadow: inset 0 0 5px #ebebeb;
+    box-shadow: inset 0 0 5px #ebebeb; */
+}

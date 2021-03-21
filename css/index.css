@@ -1,0 +1,312 @@
+body{
+    text-align: center;
+}
+
+
+
+a{
+    text-decoration: none !important;
+    color: Black;
+    font-size: bold;
+}
+
+.container-fluid-header{
+    background-color: #b8b5ff;
+    padding: 0% 5%;
+}
+
+.cf-navbar{
+    padding: 0px;
+}
+
+.navbar{
+    background-color: #fff !important;
+}
+
+.nav-link{
+    color: #aaa !important;
+    font-weight: bolder;
+}
+
+.nav-link:hover{
+    color: #000   !important;
+    transform: scale(1.1)  !important;
+    opacity: 1 !important;
+}
+
+.social-icons{
+    color:black;
+}
+
+.social-icons:hover{
+    color: white;
+
+}
+
+.dd-div{
+    padding: 2% 15%;
+}
+
+.dropdown { 
+    position:static !important; 
+} 
+
+/* to make dropdown full width of page */
+
+.dropdown-menu { 
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important; 
+    margin-top:0px !important; 
+    width:100% !important; 
+    background-color: #f5f4f4;
+} 
+
+/* to make dropdown full width of page */
+
+.ddheading{
+    font-size: 2rem;
+    color:slateblue;
+    font-weight: light;
+    padding-left: 10px;
+    padding-right: 10%;
+    float: left;
+}
+
+.ddhr{
+    border-top: 2px solid #b6d5ec;
+    margin: auto;
+    width: 800px;
+    padding-bottom: 1%;
+}
+
+.dd-col1{
+    padding-bottom: 3%;
+}
+
+.ddh3{
+    padding-bottom: 1%;
+}
+
+.list-row{
+    font-weight: bolder;
+    color:slateblue;
+    padding-bottom: 10px;
+}
+
+
+.navbar1{
+    padding: 0% 5%;
+}
+
+.brandname{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 2.25rem;
+    font-weight: bolder;
+    color: black;
+}
+
+.logoimg{
+    text-align: center; 
+    width: 50px; 
+    height: 50px; 
+}
+
+
+/* Carousel css */
+
+.imgcarousel{
+    width: 100%;
+    display: block;
+    height:fit-content;
+
+}
+
+.carouselh1{
+    font-size: 3rem;
+    color: red;
+    padding: 8% 5% 0% 5%;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.carousel-p{
+    font-size: 2rem;
+}
+
+/* How it works */
+
+#hiw{
+    padding:  0% 5% 3%;
+    background-color: #f5f4f4;
+}
+
+.hiw-h1{
+    padding: 3% 0%;
+    /* color: slateblue; */
+    font-size: 3rem;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+.fsome:hover{
+    color:slateblue;
+    
+}
+
+/* services */
+
+#services{
+    /* background-color: #ffbe0f; */
+    /* background-color: #b8b5ff; */
+    background-color: #dddd;
+    padding: 2%;
+    width: 100%;
+    height: 620px;
+}
+
+#container-fluid-services{
+    text-align: center;
+}
+
+.services-nav{
+   padding: 3% 0% 2% 15%;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+
+
+/* services ends */
+
+
+/* How it works ends */
+
+/* Our most popular documents starts */
+
+#ompd{
+    background-color: #eeeeee;
+}
+
+.ompd-contentdiv{
+    padding: 2% 10%;
+    text-align: left;
+}
+
+.ompd-heading{
+    font-size: 2rem;
+    color: black;
+    font-weight: 400;   
+    padding-top: 3%;
+}
+
+.ompd-a-color{
+    color: slateblue;
+}
+
+.ompd-p{
+    font-size: 1rem;
+}
+
+.head-row{
+    text-align: left;
+}
+
+.doc-cat{
+    font-size: 1.5rem;
+    color:slateblue;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+
+.docubutton{
+    padding-bottom: 3%;
+    
+}
+
+.ompd-btn{
+    background-color: slateblue;
+}
+
+.seemorelink{
+    
+    padding-top: 2%;
+    text-decoration: none;
+}
+
+.seemorelink-a{
+    color: slateblue;
+    font-weight: bold;
+    
+}
+
+/* Our Most popular documents ends */
+
+/* Why choose us */
+
+#wcm{
+    background-color: #fff;
+    padding: 3%;
+}
+
+.leftcol{
+    text-align: left;
+}
+
+.rightcol{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.wcm-logo{
+    width: 80%;
+}
+
+/* why choose us ends */
+
+/* footer starts */
+
+#footer{
+    background-color: rgba(0, 0, 0, .15);
+    padding: 1% 15%;
+}
+
+.container-fluid-footer{
+    background-color: #ffe227;
+    padding: 1% 2%;
+}
+
+.footp{
+    padding: 2% 0%;
+    font-weight:bold;
+    font-size: small;
+    margin: 0%;
+}
+
+.footer-content{
+    font-weight: bold;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.vl {
+    border-left: 1px solid #fff;
+    height: 50px;
+    float: right;
+    text-align: center;
+    vertical-align:200px;
+  }
+
+.footicon{
+    padding-left: 10px;
+    
+}
+
+.footicon:hover{
+    color: slateblue;
+}
+
+
+/* footer ends */
+
+

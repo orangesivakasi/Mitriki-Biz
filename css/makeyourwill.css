@@ -1,0 +1,136 @@
+.cf-tm{
+    padding: 5% 8%;
+}
+
+#willbanner{
+    background-color: #b8b5ff;
+}
+
+#willplans{
+    padding: 2% 0%;
+}
+
+.bannerh1{
+    line-height: 3rem;
+    font-weight: bolder;
+    padding: 3% 0%;
+    text-shadow: 0 0 2px #000;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.bannerh3{
+    font-weight: bold;
+    padding: 1%;
+}
+
+.willh2 {
+    padding: 1% 5% 0%;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+    text-shadow: 0 5px 5px #b8b5ff;
+}
+
+#usefultips{
+    padding: 5%;
+   
+}
+
+
+
+.cf-willplan{
+    padding: 2% 5% 2% 10%;
+}
+
+.inputstyle{
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.customlabel{
+    width:100%;
+    padding: 12px 5px;
+    font-size: 1.25rem;
+}
+
+.customlabelbtn{
+    padding-top: 8%;
+    width: auto;
+    font-size: 1.25rem;
+}
+
+#willenroll{
+    background-color: #cdcceb;
+    padding: 2%;
+}
+
+.formh2{
+    line-height: 3rem;
+    font-weight: bolder;
+    padding: 3% 0%;
+    text-shadow: 0 0 2px #000;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+
+.tipshead{
+    display: inline-block;
+    width: 7rem;
+    margin-bottom: 1rem;
+    padding: .25rem 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'ubuntu',sans-serif;
+    color: white;
+}
+
+.tips-p{
+    font-weight: normal;
+
+}
+
+#fqa{
+    padding: 0% 5% 2%;
+}
+
+.faqh1{
+    line-height: 3rem;
+    font-weight: bolder;
+    padding: 3% 0%;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.faqh2{
+    font-family: 'ubuntu', sans-serif;
+}
+
+.faq-p{
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.fqa-col{
+    padding:0% 2%;
+}
+
+.fqa-bottom{
+    padding: 2% 0%;
+}
+
+.card {
+    border: 1px solid #eee;
+    padding: 10px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 10px 21px 21px 10px rgba(0, 0, 0,.16);
+    transform: translateY(-5px);
+    
+  }
+
+  .cardheader{
+      font-family: 'ubuntu', sans-serif;
+  }

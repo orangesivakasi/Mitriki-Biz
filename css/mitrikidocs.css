@@ -1,0 +1,73 @@
+#advertisement{
+    padding: 2% 5%;
+}
+
+.agreementcards{
+    padding:2% 15%;
+}
+
+.col-md-4{
+    padding: 1% 1%; 
+}
+
+.docheading{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    color:blueviolet;
+    text-shadow: 1px 1px black;
+}
+
+.tabheading{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:blueviolet !important;
+}
+
+.catog{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color:black;
+    padding-bottom: 0% !important;
+    
+}
+
+.catog-count{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color:royalblue;
+    padding-top: 0% !important;
+}
+
+.cf-doccount{
+    background-color: palegoldenrod ;
+    padding: 0% 10%;
+}
+
+#doccount{
+    background-color: #f5f4f4;
+}
+
+.catog-count::after{
+    content: "+";
+    color: #aaa;
+   
+}
+
+.card {
+    border: 1px solid #eee;
+    padding: 10px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 10px 21px 21px 10px rgba(0, 0, 0,.16);
+    
+  }
+
+  .cardheader{
+      font-family: 'ubuntu', sans-serif;
+  }

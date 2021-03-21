@@ -1,0 +1,39 @@
+#loginform{
+    padding: 10% 15%;
+    background: palegoldenrod;
+}
+
+.login-form, .signup-form{
+    text-align: left;
+}
+
+.login-h2{
+    font-size: 1.2rem;
+    padding: 5%;
+}
+
+.login-form input[type=text], .login-form input[type=email], .signup-form input[type=text],
+.signup-form input[type=password], .signup-form input[type=email]{
+    margin: 2%;
+}
+
+.or{
+    /* border-radius: 100%;
+    background-color: tomato;
+    font-size: 1rem ; */
+
+    background: #005086;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 40px;
+    text-align: center;
+    width: 50px;
+}
+
+.leftdiv , .rightdiv, .centerdiv{
+    margin-left: 5%;
+}
